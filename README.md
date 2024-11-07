@@ -1,4 +1,4 @@
-# **web3-problem-statement-1: Blockchain-Based Solution for Insurance Fraud Prevention**
+# **Blockchain-Based Solution for Insurance Fraud Prevention**
 
 ### Objective
 Fraud in the insurance industry remains a major challenge, as customers may exploit policy loopholes for monetary gain. Proper documentation and secure recordkeeping are essential for both service providers and clients to prevent fraudulent claims. This challenge aims to develop a blockchain-based system to ensure transparent and secure documentation, improving fairness in insurance claims.

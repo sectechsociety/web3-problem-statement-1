@@ -1,7 +1,9 @@
 # **Blockchain-Based Solution for Insurance Fraud Prevention**
 
 ### Objective
-Fraud in the insurance industry remains a major challenge, as customers may exploit policy loopholes for monetary gain. Proper documentation and secure recordkeeping are essential for both service providers and clients to prevent fraudulent claims. This challenge aims to develop a blockchain-based system to ensure transparent and secure documentation, improving fairness in insurance claims.
+Insurance fraud is a persistent issue affecting the industry worldwide, costing providers and honest policyholders billions of dollars annually. Fraudulent activities, such as submitting false claims, exaggerating damages, or exploiting policy loopholes, disrupt fair practices and inflate costs for legitimate customers.
+
+In response to these challenges, there is a need for a solution that ensures secure, transparent, and immutable documentation of insurance records. By leveraging blockchain technology, we can enhance trust and security in the insurance process, making it harder for fraudulent activities to occur while improving efficiency and transparency.
 
 ### Part 1: Transparent Documentation and Claims Verification
 

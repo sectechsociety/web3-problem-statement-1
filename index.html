@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insurance Claim Portal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <!-- Logo Image -->
+        <img src="logo.webp" alt="Insurance Fraud Prevention Logo" class="logo">
+        <h1>Insurance Fraud Prevention System</h1>
+    </header>
+
+    <!-- Login Form -->
+    <section id="loginSection" class="fadeIn">
+        <h2>Login</h2>
+        <form id="loginForm">
+            <label for="username">Username</label>
+            <input type="text" id="username" required>
+            <label for="password">Password</label>
+            <input type="password" id="password" required>
+            <button type="submit">Login</button>
+        </form>
+    </section>
+
+    <!-- Claim Form -->
+    <section id="submitClaim" class="fadeIn">
+        <h2>Submit Your Claim</h2>
+        <form id="claimForm">
+            <label for="claimantName">Claimant Name</label>
+            <input type="text" id="claimantName" required>
+            <label for="claimAmount">Claim Amount</label>
+            <input type="number" id="claimAmount" required>
+            <label for="claimDescription">Claim Description</label>
+            <textarea id="claimDescription" required></textarea>
+            <label for="documentUpload">Upload Documentation</label>
+            <input type="file" id="documentUpload" required>
+            <button type="submit">Submit Claim</button>
+            <div id="uploadProgress"></div>
+        </form>
+    </section>
+
+    <!-- Claim History Section -->
+    <section id="claimHistory" class="fadeIn">
+        <h2>Your Claim History</h2>
+        <div id="claimList"></div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="fadeIn">
+        <p>&copy; 2024 Insurance Claim Portal</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
